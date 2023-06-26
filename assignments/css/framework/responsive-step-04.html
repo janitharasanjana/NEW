@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Frameworks | Responsive</title>
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+
+    <style>
+        section{
+            height: 400px;
+            border: black solid;
+        }
+
+        section>div{
+            /*height: 200px;*/
+            border: 2px red solid;
+        }
+    </style>
+</head>
+<body>
+
+<!--add container to calibrate size -->
+
+<!--container = keep spaces from left and right-->
+<!--container-fluid = full view port without allocating spaces from left and right -->
+
+<main class="container-fluid"> <!--we need to use container before use grid system-->
+
+    <!-- devices brake points
+
+    xs - col
+    sm - col-sm
+    md - col-md
+    lg - col-lg
+    xl - col-xl
+    xxl- col-xxl
+
+    -->
+
+    <section class="row justify-content-center justify-content-xxl-end">
+
+        <div class="col-12 col-sm-6 col-md-12 col-lg-12 col-xl-5 col-xxl-5 bg-danger"></div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-8 col-xxl-8 bg-warning"></div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-10 col-xxl-10 bg-success"></div>
+        <div class="col-12 col-sm-6 col-md-12 col-lg-4 col-xl-12 col-xxl-12 bg-black"></div>
+
+    </section>
+
+
+
+</main>
+
+
+<script src="assests/js/bootstrap.min.js"></script>
+</body>
+</html>

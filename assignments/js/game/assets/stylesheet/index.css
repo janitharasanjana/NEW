@@ -1,0 +1,17 @@
+.main{
+    margin: 0px;
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../image/backgr.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+.ninja{
+    height: 300px;
+    top: 550px;
+    position: absolute;
+}

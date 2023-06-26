@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+    <title>Customer Registration Form</title>
+</head>
+<body>
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/boy.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      customer management
+    </a>
+  </div>
+</nav>
+
+<section>
+  <div class="mb-3">
+    <label for="formFile" class="form-label">Customer Id</label>
+    <input class="form-control" type="text" id="formFile">
+  </div>
+  <div class="mb-3">
+    <label for="formFileMultiple" class="form-label"> Customer Name</label>
+    <input class="form-control" type="text" id="formFileMultiple" multiple>
+  </div>
+  <div class="mb-3">
+    <label for="formFileDisabled" class="form-label">Customer Address </label>
+    <input class="form-control" type="text" id="formFileDisabled">
+  </div>
+  <div class="mb-3">
+    <label for="formFileSm" class="form-label">Customer Salary </label>
+    <input class="form-control form-control-sm" id="formFileSm" type="number">
+  </div>
+
+
+
+  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn btn-danger">Customer Delete</button>
+    <button type="button" class="btn btn-warning">Customer Update</button>
+    <button type="button" class="btn btn-success">Customer Save</button>
+  </div>
+</section>
+<script src="assests/js/bootstrap.min.js"></script>
+</body>
+</html>

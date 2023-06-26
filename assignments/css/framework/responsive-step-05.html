@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Frameworks | Responsive</title>
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+
+    <style>
+
+        section>div{
+            /*height: 200px;*/
+            border: 2px red solid;
+        }
+    </style>
+</head>
+<body>
+
+<!--add container to calibrate size -->
+
+<!--container = keep spaces from left and right-->
+<!--container-fluid = full view port without allocating spaces from left and right -->
+
+<main class="container-fluid"> <!--we need to use container before use grid system-->
+
+    <!-- devices brake points
+
+    xs - col
+    sm - col-sm
+    md - col-md
+    lg - col-lg
+    xl - col-xl
+    xxl- col-xxl
+
+    -->
+
+   <section class="row">
+       <div class="col-12 col-md-6 col-xl d-none d-md-flex">
+           <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid atque consequatur cum
+           distinctio esse impedit in ipsa molestias non odio officia omnis quam, quasi, quidem rem repellat sequi tenetur!
+           </p>
+       </div>
+
+       <div class="col-12 col-md-6 col-xl">
+           <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid atque consequatur cum
+               distinctio esse impedit in ipsa molestias non odio officia omnis quam, quasi, quidem rem repellat sequi tenetur!
+           </p>
+       </div>
+
+       <div class="col-12 col-md-6 col-xl">
+           <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid atque consequatur cum
+               distinctio esse impedit in ipsa molestias non odio officia omnis quam, quasi, quidem rem repellat sequi tenetur!
+           </p>
+       </div>
+
+       <div class="col-12 col-md-6 col-xl">
+           <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid atque consequatur cum
+               distinctio esse impedit in ipsa molestias non odio officia omnis quam, quasi, quidem rem repellat sequi tenetur!
+           </p>
+       </div>
+
+   </section>
+
+
+
+</main>
+
+
+<script src="assests/js/bootstrap.min.js"></script>
+</body>
+</html>
