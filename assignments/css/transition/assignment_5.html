@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        section{
+
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            /*border: 10px solid green;*/
+            border-top-color: yellow;
+            border-radius: 100px;
+            position: absolute;
+
+            /*border-top: darkred;*/
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+
+        /*div:nth-child(2){*/
+        /*    width: 130px;*/
+        /*    height: 130px;*/
+        /*    background-color: yellow;*/
+        /*    position: absolute;*/
+        /*    border-radius: 100px;*/
+        /*    right: 0;*/
+        /*    left: 0;*/
+        /*    top: 0;*/
+        /*    bottom: 0;*/
+        /*    margin: auto;*/
+        /*    border: black ;*/
+        /*}*/
+
+        h3{
+            height: max-content;
+            width: max-content;
+            color: black;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        section:hover::before{
+            transition-duration: 3s;
+            transform: rotate(360deg);
+        }
+
+        section::before{
+            content: "";
+            /*width: 150px;*/
+            /*height: 150px;*/
+            background-color: blue;
+            border: 10px solid green;
+            border-top-color: yellow;
+            border-radius: 100px;
+            position: absolute;
+
+            /*border-top: darkred;*/
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+
+    </style>
+</head>
+<body>
+<section>
+  <div></div>
+  <div></div>
+    <h3>click</h3>
+</section>
+
+
+</body>
+</html>
