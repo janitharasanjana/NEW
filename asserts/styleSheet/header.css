@@ -88,7 +88,7 @@ span{
 }
 
 .navlist a:hover{
-    color: maroon;
+    color: #F6C074;
 }
 
 #menu-icon{
@@ -107,6 +107,22 @@ span{
     font-weight:normal;
     font-size: 20px;
     border: 2px solid #F6C074;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 45px;
+    width: 140px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.button:hover{
+    color: #ffffff;
+    font-weight:normal;
+    font-size: 20px;
+    border: 2px solid #FFFFFF;
     background-color: transparent;
     border-radius: 10px;
     height: 45px;
@@ -277,6 +293,10 @@ header.sticky{
     display: inline-flex;
     justify-content: center;
     font-family: 'Inter', sans-serif;
+}
+
+.buttonCv:hover{
+    color: #ffffff;
 }
 
 .about-text h2{
@@ -683,6 +703,43 @@ display: grid;
     font-size: 15px;
     margin: 0 25px;
     transition: all .45s ease;
+
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+
+}
+
+#lets{
+
+    margin: 0 25px;
+    transition: all .45s ease;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+
+}
+
+#lets:hover{
+    margin: 0 25px;
+    transition: all .45s ease;
+    color: #F6C074;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+
+.navlist2 a:hover{
+    font-size: 15px;
+    margin: 0 25px;
+    transition: all .45s ease;
+
+    color: #F6C074;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+
 }
 
 
